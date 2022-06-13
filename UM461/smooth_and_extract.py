@@ -30,6 +30,9 @@ if __name__ == "__main__":
         image_file = pyfits.open(fn)
         # image_file.info()
 
+
+
+
         # extract image data
         img_data = image_file[0].data.T
 
